@@ -34,6 +34,7 @@ object MySparkAppServerBuild extends Build {
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.15.v20160210" % "container",
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
         "org.apache.spark" %% "spark-core" % SparkVersion,
+        "org.apache.spark" %% "spark-hive" % SparkVersion,
         "com.sun.jersey" % "jersey-bundle" % "1.19.2"
       ),
       scalateTemplateConfig in Compile <<= (sourceDirectory in Compile){ base =>
