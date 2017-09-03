@@ -70,3 +70,7 @@ jrebel.lic
 
 #output folder 
 README.txt/
+kv1.txt
+derby.log
+metastore_db/
+spark-warehouse/
